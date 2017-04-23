@@ -1,0 +1,69 @@
+body {
+    background-image: url(img/library.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+}
+.menu {
+        width: 50%;
+        padding: 20px;
+        margin: 5% auto 5% auto;
+        background-color: rgba(79, 87, 86, 0.7);
+        border-radius: 10px 10px;
+        border: 0px;
+    }
+    .menu form {
+        display: table;
+    }
+
+    .menu p {
+        display: table-row;
+    }
+
+    .menu label {
+        letter-spacing: 0.1em;
+        color: white;
+        display: table-cell;
+    }
+
+    .menu input {
+        border-radius: 4px;
+        padding: 2px 2px 2px 5px;
+        margin-bottom: 10px;
+        display: table-cell;
+    }
+    .menu textarea{
+        border-radius: 4px;
+        display: table-cell;
+    }
+
+    input#price {
+        margin-top: 4px;
+        width: 15%
+    }
+
+    h3 {
+        letter-spacing: 0.1em;
+        color: #e0e4e6;
+    }
+
+    img {
+        float:left;
+    }
+    #bts{
+        padding:6px;
+         position: relative;
+        left: 100%;
+        margin-top: 10px;
+    }
+    .form-errors{
+      color: red;
+    }
+    .book_img{
+        margin: .2em;
+        border: 1px solid #555;
+        padding: .2em;
+        vertical-align: top;
+      }
